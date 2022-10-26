@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  background-color: #9ff4
+  
+  }
+  form{
+    margin: 4px auto;
+    border: 2px solid #f00;
+    object-align: center;
+    padding: 10px;
+    width:80%;
+    border-radius:10px;
+  }
+  table{
+    margin: auto;
+  }
+  caption{
+    padding:7px;
+    font-weight: 600;
+    font-size:20px;
+  }
+  input{
+    padding:5px;
+  }
