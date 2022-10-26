@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  main{
+    width:60%;
+    height:70vh;
+    display:flex;
+    margin: auto;
+    margin-top:2cm;
+  }
+  .sedans, .suvs, .luxury{
+    background-color: #e28525;
+    padding:50px 50px;
+    color:white;
+    width:350px;
+    font-size:12px;
+    font-family: sans-serif;
+    
+    
+    
+  }
+  a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px 10px;
+    border-radius:50px;
+    color:white;
+    font-size:10px;
+    margin-top:300px;
+  }
+  img{
+    width:50px;
+  }
+  h2{
+    font-size:30px;
+    padding-y: 20px;
+  }
+  p{
+    padding-bottom:20px;
+    margin-bottom: 120px;
+  }
+  .suvs{
+    background-color:#016972
+  }
+  .luxury{
+    background-color:#00403f
+  }

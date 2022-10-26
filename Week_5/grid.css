@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:#3b3a3a ;
+  }
+  main{
+    width:70%;
+    height:70vh;
+    display:grid;
+    margin: auto;
+    margin-top:2cm;
+    grid-template-areas:
+      'a a b'
+      'c d d'
+      'c e e';
+    gap:10px;
+  }
+    .a{grid-area: a ;
+    background-color:#eb5020 ;
+      width:auto;
+    }
+    .b{grid-area: b ;
+    background-color:#ffa401 ;
+      width:auto;
+    }
+    .c{grid-area: c ;
+    background-color:#05aa42 ;
+      width:auto;
+    }
+    .d{grid-area: d ;
+    background-color:#01aefd ;
+      width:auto;
+    }
+    .e{grid-area: e ;
+    background-color:#01aefd ;
+      width:auto;
+    }
+  
